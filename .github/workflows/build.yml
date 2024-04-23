@@ -42,7 +42,7 @@ jobs:
 
       # Analizar cobertura de código con SonarCloud
       - name: SonarCloud Scan with coverage
-        uses: SonarSource/sonarcloud-github-action@auth-B
+        uses: SonarSource/sonarcloud-github-action@master
         with:
           args: >
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
